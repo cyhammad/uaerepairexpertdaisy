@@ -10,10 +10,10 @@ const Footer = () => {
               href="/companies/bosch"
               className="btn btn-ghost h-[80px] ml-[-20px] md:ml-0 rounded-xl normal-case sm:text-lg px-1"
             >
-              <Image src="/logo2.svg" className="overflow-hidden mt-1  md:mt-0" width={200} height={200} />
-              <span className="ml-[-120px] mt-[-100px] md:ml-[-120px] md:mt-[-100px]  font-bold text-xl md:text-2xl">UAE REPAIR EXPERT</span>
+              <Image src="/logo2.svg" className="overflow-hidden  mt-1 md:mt-0" width={200} height={200} />
+              <span className="ml-[-125px]   mt-[-100px] md:ml-[-120px] md:mt-[-100px]  font-bold text-lg md:text-2xl">UAE REPAIR EXPERT</span>
             </Link>
-            <p className="max-w-lg">
+            <p className="max-w-lg ">
             A company specializing in appliance repair and maintenance services
             in Dubai and Abu Dhabi. Our team consists of highly skilled and
             experienced technicians dedicated to providing professional and
