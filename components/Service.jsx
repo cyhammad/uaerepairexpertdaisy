@@ -20,7 +20,7 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default",
   };
   return (
     <div
-      className={`card w-60  sm:w-[16rem] ${
+      className={`card w-70  sm:w-[16rem] ${
         dark ? "bg-	primary-content text-base-content " : "bg-primary-content text-base-content"
       } shadow hover:shadow-md duration-300 rounded-none`}
     >
@@ -41,7 +41,7 @@ const Service = ({ name, imageUrl, description, dark, callButtonColor="default",
       </figure>
       <div className="card-body">
         <h2
-          className="card-title text-base cursor-pointer hover:scale-105 duration-300"
+          className="card-title text-xl font-extrabold md:font-extrabold md:text-sm cursor-pointer hover:scale-105 duration-300"
           onClick={() => {
             if (!disableLink) {
               router.push(`/services/${slugify(name)}`);
